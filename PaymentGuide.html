@@ -4,42 +4,70 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Internet Payment Guide - Navcals Solutions</title>
+
 <style>
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f4f8fb;
+    background: linear-gradient(135deg, #eef5ff, #f9fbfd);
     color: #333;
     padding: 20px;
     margin: 0;
 }
+
 .container {
     max-width: 600px;
     background: white;
     margin: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 25px;
     text-align: center;
 }
+
 .logo img {
-    max-width: 150px;
-    margin-bottom: 20px;
+    max-width: 140px;
+    margin-bottom: 15px;
 }
+
+h2 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
 .section {
     text-align: left;
-    margin: 20px 0;
+    margin: 25px 0;
 }
-.qr {
-    text-align: center;
-    margin: 20px 0;
-}
-.qr img {
-    max-width: 150px;
-    width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
+
+.card {
+    background: #f7fbff;
+    padding: 15px;
     border-radius: 10px;
+    margin: 15px 0;
+    border-left: 5px solid #0077cc;
 }
+
+.qr img {
+    max-width: 160px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #0077cc;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .footer {
     background: #f0f0f0;
     padding: 15px;
@@ -47,65 +75,84 @@ body {
     font-size: 0.9em;
     color: #555;
     margin-top: 30px;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
 }
-a {
-    color: #0077cc;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-ul {
-    padding-left: 20px;
+
+.note {
+    background: #fff4e5;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
 </style>
 </head>
+
 <body>
 <div class="container">
+
     <div class="logo">
-        <a href="https://ibb.co/TpP8pvd"><img src="https://i.ibb.co/GBC2BxN/Navcals-logo.png" alt="Navcals-logo" border="0"></a>
+        <img src="https://i.ibb.co/GBC2BxN/Navcals-logo.png" alt="Navcals-logo">
     </div>
 
-    <h2 style="color: #0077cc;">Internet Payment Guide</h2>
-    <p>Welcome! This guide will help you easily settle your internet service payment with Navcals Solutions.</p>
+    <h2>🌐 Internet Payment Guide</h2>
+    <p>Welcome! Easily settle your internet service payment with <strong>Navcals Solutions</strong>.</p>
 
     <div class="section">
-        <h3>2️⃣ Payment Methods</h3>
-        <p>You can pay via the following options:</p>
+        <h3>💳 Payment Methods</h3>
 
-        <h4>💸 GCash Payment</h4>
-        <p><strong>Account Name:</strong> Billy Bocal<br>
-        <strong>GCash Number:</strong> 0962 260 8635</p>
-        <div class="qr">
-            <a href="https://imgbb.com/"><img src="https://i.ibb.co/HfyWrSvS/qr.jpg" alt="GCash QR Code" border="0"></a>
-            <p>Scan the QR code to pay instantly</p>
+        <!-- GCash -->
+        <div class="card">
+            <h4>💸 GCash Payment</h4>
+            <p>
+                <strong>Account Name:</strong> Billy Bocal<br>
+                <strong>GCash Number:</strong> 0962 260 8635
+            </p>
+
+            <div class="qr">
+                <img src="https://i.ibb.co/HfyWrSvS/qr.jpg" alt="GCash QR Code">
+                <p>Scan to pay instantly</p>
+            </div>
         </div>
 
-        <p>After payment, please send your proof of payment via:</p>
+        <!-- NEW PAYMENT METHOD -->
+        <div class="card">
+            <h4>📱 Alternative Payment</h4>
+            <p>
+                <strong>Account Name:</strong> Billy Bocal<br>
+                <strong>Number:</strong> 18637395832
+            </p>
+        </div>
+
+        <!-- Cash -->
+        <div class="card">
+            <h4>💵 Cash Payment</h4>
+            <p>You may also pay directly in person.</p>
+        </div>
+
+        <p>After payment, send proof via:</p>
         <ul>
             <li>📘 <a href="https://www.facebook.com/yllib26/" target="_blank">Facebook: Billy Bocal</a></li>
-            <li>📧 <a href="mailto:Navcalsolutions@gmail.com">Email: Navcalsolutions@gmail.com</a></li>
+            <li>📧 <a href="mailto:Navcalsolutions@gmail.com">Navcalsolutions@gmail.com</a></li>
         </ul>
-
-        <h4>💵 Cash Payment</h4>
-        <p>You may also pay in cash by visiting directly.</p>
     </div>
 
     <div class="section">
-        <h3>3️⃣ Important Notes</h3>
-        <ul>
-            <li>⚠️ Make sure to settle your payment on or before the due date to avoid service interruptions.</li>
-            <li>⚠️ If you have already paid, kindly disregard this guide.</li>
-            <li>❗ For any questions or issues, reach out via Facebook or email.</li>
-        </ul>
+        <h3>⚠️ Important Notes</h3>
+        <div class="note">
+            <ul>
+                <li>Make sure to pay before the due date to avoid disconnection.</li>
+                <li>If already paid, please disregard this notice.</li>
+                <li>Contact us for any concerns.</li>
+            </ul>
+        </div>
     </div>
 
-    <p>Thank you for choosing Navcals Solutions! Your continued support is highly appreciated.</p>
+    <p>🙏 Thank you for choosing Navcals Solutions!</p>
 
     <div class="footer">
-        &copy; 2025 Navcals Solutions.
+        &copy; 2025 Navcals Solutions
     </div>
+
 </div>
 </body>
 </html>
